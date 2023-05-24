@@ -3,6 +3,7 @@ import java.util.HashMap;
 
 public class Heap<T extends Comparable<T>> 
 {
+
 	ArrayList<T> data = new ArrayList<>();
 	HashMap<T, Integer> map = new HashMap<>();
 
